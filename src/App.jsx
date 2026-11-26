@@ -14,7 +14,7 @@ import Timetable from "./pages/Timetable";
 import Academics from "./pages/Academics";
 import Placements from "./pages/Placements";
 import Progress from "./pages/Progress";
-import QuickNotes from "./pages/Quicknotes";
+import QuickNotes from "./pages/QuickNotes";
 import SettingsPage from "./pages/Settings";
 import FocusTimer from "./pages/FocusTimer";
 import StudyTracker from "./pages/StudyTracker";
