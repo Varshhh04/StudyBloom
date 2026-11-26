@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #fff9fc;
+  color: #45394b;
+}
+
+button {
+  font-family: inherit;
+}
+/* StudyBloom Themes */
+
+.app.pastel-theme {
+  --theme-primary: #d68eae;
+  --theme-secondary: #fce8f0;
+  --theme-background: #fff8fb;
+  --theme-text: #5d4a58;
+}
+
+.app.lavender-theme {
+  --theme-primary: #9b87c9;
+  --theme-secondary: #eee8fa;
+  --theme-background: #faf8ff;
+  --theme-text: #514765;
+}
+
+.app {
+  color: var(--theme-text, #5d4a58);
+  background: var(--theme-background, #fff8fb);
+}
+
+.app .nav-link.active {
+  background: var(--theme-secondary, #fce8f0);
+  color: var(--theme-primary, #d68eae);
+}
+
+.app .logo {
+  color: var(--theme-primary, #d68eae);
+}
